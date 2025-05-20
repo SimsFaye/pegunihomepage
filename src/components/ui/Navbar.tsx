@@ -63,6 +63,12 @@ export function Navigation() {
               >
                 Changelog
               </Link>
+              <Link
+                className="px-2 py-1 text-gray-900 dark:text-gray-50"
+                href={siteConfig.baseLinks.help}
+              >
+                Help
+              </Link>
             </div>
           </nav>
           <Button className="hidden h-10 font-semibold md:flex">
@@ -98,6 +104,9 @@ export function Navigation() {
             </li>
             <li onClick={() => setOpen(false)}>
               <Link href={siteConfig.baseLinks.changelog}>Changelog</Link>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <Link href={siteConfig.baseLinks.help}>Help</Link>
             </li>
           </ul>
         </nav>

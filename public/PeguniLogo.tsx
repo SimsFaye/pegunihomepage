@@ -1,6 +1,6 @@
 import type { SVGProps } from "react"
 
-export const DatabaseLogo = (props: SVGProps<SVGSVGElement>) => (
+export const PeguniLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ export const DatabaseLogo = (props: SVGProps<SVGSVGElement>) => (
     fill="currentColor"
     {...props}
   >
-    <g transform="translate(45 22) scale(0.35)">
+    <g transform="translate(45 25) scale(0.35)">
       <g>
         <g transform="translate(6.45 -43.98) scale(.885)">
           <path

@@ -12,16 +12,26 @@ export default function Hero() {
       <h1
         id="hero-title"
         className="inline-block animate-slide-up-fade bg-gradient-to-br from-gray-900 to-gray-800 bg-clip-text p-2 text-4xl font-bold tracking-tighter text-transparent sm:text-6xl md:text-7xl dark:from-gray-50 dark:to-gray-300"
-        style={{ animationDuration: "700ms" }}
+        style={{
+          animationDuration: "700ms",
+          fontFamily: "'SF Pro JP', 'SF Pro Display', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif",
+          letterSpacing: "0.02em",
+          lineHeight: "1.3"
+        }}
       >
-        The database for <br /> modern applications
+        Peguniで実現する <br /> 最先端ソリューション
       </h1>
       <p
         className="mt-6 max-w-lg animate-slide-up-fade text-lg text-gray-700 dark:text-gray-400"
-        style={{ animationDuration: "900ms" }}
+        style={{
+          animationDuration: "900ms",
+          fontFamily: "'SF Pro JP', 'SF Pro Display', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif",
+          letterSpacing: "0.02em",
+          lineHeight: "1.7",
+          marginTop: "1.75rem"
+        }}
       >
-        Database is a general purpose, relational database built for modern
-        application developers and for the cloud era.
+        AI技術で、教育の未来を創造する。<br />次世代の学びを、あなたに。
       </p>
       <div
         className="mt-8 flex w-full animate-slide-up-fade flex-col justify-center gap-3 px-3 sm:flex-row"

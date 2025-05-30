@@ -20,6 +20,7 @@
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
+
 code {
   counter-reset: step;
   counter-increment: step 0;
@@ -30,6 +31,7 @@ code .line::before {
   counter-increment: step;
   @apply mr-8 inline-block w-4 text-right text-gray-600;
 }
+
 .mask {
   mask-image: radial-gradient(rgba(0, 0, 0, 1) 0%, transparent 80%);
 }
@@ -51,6 +53,6 @@ a {
   content: "#";
 }
 
-*:hover > .anchor-link {
+*:hover>.anchor-link {
   @apply visible;
 }
